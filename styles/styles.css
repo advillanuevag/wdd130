@@ -12,6 +12,7 @@
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+    width:45rem;
     
 }
 
@@ -30,6 +31,8 @@ nav a{
 
 h1{
     color: steelblue;
+    padding: 10px;
+
 }
 
 img{
@@ -42,7 +45,7 @@ img{
 }
 
 p{
-    padding: 0px;
+    padding: 10px;
     color: steelblue;
 
 }
@@ -62,13 +65,17 @@ aside{
 
 aside image{
     width: 400px;
+    
     height: auto;
 }
 
 aside h2{
-    position: absolute;
-    top: 47px;
-    left: 150px;
+    position: relative;
+    top: 88px;
+    left: 310px;
+    font-size: smaller;
+    
+    
 }
 
 main image{
@@ -80,4 +87,9 @@ footer{
     margin-top: 15px;
     border-top: 1px solid #000 ;
     text-align: center;
+    max-width: 840px;
+}
+
+header{
+    max-width: 840px;
 }
