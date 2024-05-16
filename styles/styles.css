@@ -55,16 +55,15 @@ main{
 
 aside{
     width:20rem;
-    /*margin:1rem;*/
-   /* border:1px solid rgba(0,0,0,0.2);*/
-   /* padding:1rem;*/
-   /* -color:#eee;*/
-    /*color:#eee;*/
+    margin:1rem;
+    border:1px solid rgba(0,0,0,0.2);
+    padding:1rem;
+    color:#eee;
     text-align:center;
 }
 
 aside image{
-    width: 400px;
+    width: 200px;
     
     height: auto;
 }
@@ -79,7 +78,7 @@ aside h2{
 }
 
 main image{
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
