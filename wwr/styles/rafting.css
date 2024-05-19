@@ -23,3 +23,187 @@ root{
   h1{
     color: #3703A6;
   }
+
+  header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 0.5fr 2fr;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid #7FB685;
+    max-width: 1000px;
+  }
+
+  .logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+    display: grid;
+    align-content: center;
+    box-shadow: 0 0 30px gray;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-family: "Roboto", "Monserrat";
+  }
+
+  nav {
+    text-align: justify;
+  }
+
+  .navigation {
+    display: flex;
+    list-style: none;
+  }
+
+  .navigation li {
+    flex: 1 1 100%;
+  }
+  
+  .navigation a {
+    display: block;
+    color: #7D5BA6;
+    padding: 20px;
+    text-decoration: none;
+    font-size: large;
+    
+     
+  }
+  
+  .navigation a:hover {
+    color: #7FB685;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  .history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 0.5fr 0.5fr 0.2fr;
+    
+  }
+
+  h2{
+    grid-column-start: 2;
+    margin: auto;
+    
+  }
+  .paragraph1{
+    grid-row-start: 2;
+    grid-column: 3;
+    padding: 30px;
+  }
+
+  .paragraph2{
+    grid-row-start: 2;
+    grid-column: 1;
+    justify-items: center;
+    padding: 30px;
+  }
+
+  .history img{
+    grid-row-start: 2;
+    grid-column: 2;
+    align-items: center;
+    box-shadow: 0 0 30px gray;
+    
+        
+    
+  }
+  
+  .adventures {
+    display: grid;
+    grid-template-columns: 15fr 15fr 15fr 15fr 15fr;
+    grid-template-rows: 1fr 2fr 0.1fr;
+  }
+
+  #image1{
+    grid-row-start: 2;
+    grid-column: 1;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0 0 30px gray;
+  }
+
+  #image2{
+    grid-row-start: 2;
+    grid-column: 2;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 0 30px gray;
+  }
+
+  #image3{
+    grid-row-start: 2;
+    grid-column: 3;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 0 30px gray;
+  }
+
+  #image4{
+    grid-row-start: 2;
+    grid-column: 4;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 0 30px gray;
+  }
+
+  #image5{
+    grid-row-start: 2;
+    grid-column: 5;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 0 30px gray;
+  }
+
+  .adventures h2{
+    display: grid;
+    grid-column: 1 / 6;
+  }
+
+  figcaption{
+    text-align: center;
+  }
+
+  h3{
+    font-size: medium;
+  }
+
+  #foo{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 0.1fr 0.1fr;
+    grid-template-rows: 1fr;
+    margin-top: 30px;
+  }
+
+  footer a{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+
+  footer p{
+    display: grid;
+    justify-items: center;
+  }
+
+  .hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:0.4fr 1fr 0.2fr;
+  }
+
+  .hero img{
+    grid-column-start: 5;
+    grid-row-start: 2;
+    box-shadow: 0 0 30px gray;
+    margin: auto;
+  }
+
+  .hero article{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    justify-items: center;
+  }
