@@ -80,8 +80,8 @@ root{
   .history {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
-    grid-template-rows: 0.5fr 0.5fr 0.2fr;
-    
+    grid-template-rows: 0.3fr 0.5fr 0.2fr;
+     
   }
 
   h2{
@@ -192,7 +192,7 @@ root{
   .hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
-    grid-template-rows:0.4fr 1fr 0.2fr;
+    grid-template-rows:0.4fr 1fr 0.1fr;
   }
 
   .hero img{
