@@ -54,6 +54,7 @@ img{
     float: right;
     margin-top: 20px;
     
+    
 }
 
 p{
@@ -68,13 +69,7 @@ main{
 }
 
 aside{
-    /*max-width: auto;
-    margin:1rem;
-    border:1px solid rgba(0,0,0,0.2);
-    padding:1rem;
-    color:#eee;
-    text-align:center;
-    position: relative;*/
+    
     width: 20rem;
     position: relative;
     grid-column: 1 / 2;
@@ -83,7 +78,7 @@ aside{
 }
 
 aside image{
-    width: 840px;
+    width: 200px;
     margin: 80px;
     padding: 2px;
     height: auto;
@@ -100,8 +95,13 @@ aside h2{
 }
 
 main image{
-    /*width: 80px;*/
+    width: 150px;
     height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin-top: 20px;
     
 }
 
@@ -112,9 +112,7 @@ footer{
     /*max-width: auto;*/
 }
 
-/*header{
-    max-width: auto;
-}*/
+
 
 header, .grid, footer{
     max-width: 840px;
