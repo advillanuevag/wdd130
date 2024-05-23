@@ -20,6 +20,10 @@ root{
     font-size: medium;
   }
 
+  article img{
+    float: right;
+  }
+
   h1{
     color: #3703A6;
   }
