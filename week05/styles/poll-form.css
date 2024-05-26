@@ -105,13 +105,8 @@ footer{
 .column1{
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem auto 0;
-    /*margin: O.5rem;*/
 }
 
 .column2{
     grid-template-columns: 1fr 2fr;
 }
-
-
-/*CSS Form Styling*/
-/* Step 3: Add HTML Divs*/
