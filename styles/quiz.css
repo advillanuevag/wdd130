@@ -44,12 +44,14 @@ fieldset{
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
+    
 }
 
-legend{
+legend, label{
     padding: 0.5rem;
     color: navy;
     font-size: 1.3rem;
+  
 }
 
 level, input, button, select, textarea{
@@ -110,4 +112,9 @@ footer{
 
 .column2{
     grid-template-columns: 1fr 2fr;
+}
+
+ul{
+    color: navy;
+    padding: 30px;
 }
