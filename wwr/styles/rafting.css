@@ -211,3 +211,63 @@ root{
     grid-row-start: 2;
     justify-items: center;
   }
+
+/* This code came from contacts.css
+   Check for duplicated code*/
+
+
+.map{
+    border: #3703A6;
+}
+
+
+  legend{
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+form{
+    width: 650px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+main{
+    text-align: center;
+    color: navy;
+}
+
+
+ 
+  button{
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
+.employee{
+    display: flex;
+    justify-content: center;
+}
+
