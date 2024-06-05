@@ -14,6 +14,8 @@ root{
     --nav-hover-background-color: #03A66A;
   }
 
+  
+  
   article p{
     font-family: "Roboto", serif;
     color: #3703A6;
@@ -91,6 +93,7 @@ root{
   h2{
     grid-column-start: 2;
     margin: auto;
+    margin-bottom: 30px;
     
   }
   .paragraph1{
@@ -111,6 +114,7 @@ root{
     grid-column: 2;
     align-items: center;
     box-shadow: 0 0 30px gray;
+    border-radius: 8px;
     
         
     
@@ -128,6 +132,7 @@ root{
     justify-content: center;
     margin: auto;
     box-shadow: 0 0 30px gray;
+    border-radius: 8px;
   }
 
   #image2{
@@ -136,6 +141,7 @@ root{
     align-items: center;
     margin: auto;
     box-shadow: 0 0 30px gray;
+    border-radius: 8px;
   }
 
   #image3{
@@ -144,6 +150,7 @@ root{
     align-items: center;
     margin: auto;
     box-shadow: 0 0 30px gray;
+    border-radius: 8px;
   }
 
   #image4{
@@ -152,6 +159,7 @@ root{
     align-items: center;
     margin: auto;
     box-shadow: 0 0 30px gray;
+    border-radius: 8px;
   }
 
   #image5{
@@ -160,6 +168,7 @@ root{
     align-items: center;
     margin: auto;
     box-shadow: 0 0 30px gray;
+    border-radius: 8px;
   }
 
   .adventures h2{
@@ -204,6 +213,8 @@ root{
     grid-row-start: 2;
     box-shadow: 0 0 30px gray;
     margin: auto;
+    border-radius: 8px;
+    
   }
 
   .hero article{
@@ -271,3 +282,184 @@ button:hover{
     justify-content: center;
 }
 
+.container{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+  margin-top: 180px;
+}
+
+
+
+.item-1{
+  grid-row-start: 1;
+  grid-column-start: 1;
+  align-items: center;
+  align-content: center;
+
+}
+
+.item-2{
+  grid-row-start: 1;
+  grid-column-start: 2;
+  align-items: center;
+  align-content: center;
+
+}
+
+/*css Trips.html page*/
+
+.trip-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 16px;
+  margin-bottom: 50px;
+}
+.trip-item {
+  text-align: center;
+}
+
+.trip-item img{
+  border-radius: 8px;
+  box-shadow: 0 0 30px gray;
+}
+
+.trips-adventure{
+  margin: 30px;
+}
+
+.item-2 p{
+  font-size: 1.3em;
+
+}
+
+
+
+
+/*css index.html homepage*/
+.headerimg {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-image: url('../images/hero.webp'); /* Replace with your image URL */
+  border-radius: 8px;
+  box-shadow: 0 0 30px gray;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.headerimg h2 {
+  font-size: 48px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  color: #D8F2EB;
+}
+.signup-section {
+  padding: 20px;
+  text-align: center;
+  background: #f4f4f4;
+  margin-bottom: 40px;
+}
+.signup-section h2 {
+  font-size: 24px;
+}
+.signup-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+  margin-bottom: 15px;
+  
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background: #3703A6;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto;
+}
+.form-group button:hover {
+  background: #03A66A;
+}
+.cta-section {
+  padding: 20px;
+  text-align: center;
+  background: #3703A6;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.cta-section a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  background: #2E038C;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.grid-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.grid-item img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 30px gray;
+}
+.grid-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.grid-item p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.imgtrips{
+  border-radius: 8px;
+box-shadow: 0 0 30px gray;
+
+}
